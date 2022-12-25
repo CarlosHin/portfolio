@@ -4,10 +4,11 @@ export interface Props {
     title: string;
     desc: string;
     d: string;
+    link?: string;
     stack: string[];
 }
 
-const { img, title, desc, d, stack } = Astro.props as Props;
+const { img, title, desc, d, stack, link } = Astro.props as Props;
 ---
 
 <div class="proyectItem-container mb-6 lg:mb-0 hover:shadow-lg">
@@ -43,11 +44,13 @@ const { img, title, desc, d, stack } = Astro.props as Props;
                     ))
                 }
             </div>
-            <button
-                type="button"
-                class="inline-block px-6 py-2 border-2 border-blue-400 text-blue-400 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                >Visitar</button
-            >
+            <a href={link} target="_blank">
+                <button
+                    type="button"
+                    class="inline-block px-6 py-2 border-2 border-blue-400 text-blue-400 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                    >Visitar
+                </button>
+            </a>
         </div>
     </div>
 </div>
