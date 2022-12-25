@@ -27,6 +27,11 @@ const { title } = Astro.props as Props;
 				});
 			}
 		</script>
+		<link href="/animate.css" rel="stylesheet" />
+		<script type="text/javascript" src="/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
 	</head>
 	<body>
 		<slot />

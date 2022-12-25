@@ -7,7 +7,7 @@ export interface Props {
 const { img, name } = Astro.props as Props;
 ---
 
-<div class="md:mb-0 flex flex-col justify-end">
+<div class="md:mb-0 flex flex-col justify-end wow fadeIn" data-wow-delay="0.3s">
     <img src={img} class="rounded-lg w-32 w-auto" alt="" />
     <h5 class="text-center text-lg font-medium text-gray-500 mb-0 mt-2">
         {name}

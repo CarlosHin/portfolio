@@ -10,11 +10,11 @@ const { img, title, desc, time } = Astro.props as Props;
 ---
 
 <div class="mb-24">
-    <div class="rounded-lg shadow-lg h-full block bg-white">
+    <div class="rounded-lg shadow-lg h-full block bg-white wow fadeInUp">
         <div class="flex justify-center">
             <div
-                class="flex justify-center items-center"
-                style="margin-top: -75px;width: 70%; height:170px;"
+                class="img-container flex justify-center items-center"
+                style="width: 70%;"
             >
                 <img
                     src={img}
@@ -47,3 +47,16 @@ const { img, title, desc, time } = Astro.props as Props;
         </div>
     </div>
 </div>
+
+<style>
+    .img-container {
+        height: 170px;
+        margin-top: -75px;
+    }
+    @media only screen and (max-width: 600px) {
+        .img-container {
+            height: 50px;
+            margin-top: -15px;
+        }
+    }
+</style>

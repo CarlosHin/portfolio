@@ -11,8 +11,10 @@ export interface Props {
 const { img, title, desc, d, stack, link } = Astro.props as Props;
 ---
 
-<div class="proyectItem-container mb-6 lg:mb-0 hover:shadow-lg">
-    <div class="bg-white block rounded-lg shadow-lg">
+<div
+    class="proyectItem-container mb-6 lg:mb-0 hover:shadow-lg h-full wow fadeInUp"
+>
+    <div class="bg-white block rounded-lg shadow-lg h-full">
         <div class="relative overflow-hidden bg-no-repeat bg-cover">
             <img src={img} class="w-full rounded-t-lg" />
             <svg
@@ -33,7 +35,7 @@ const { img, title, desc, d, stack, link } = Astro.props as Props;
                 rerum reiciendis neque. Illum, adipisci ducimus.{desc}
             </p>
             <h5 class="text-sm font-bold mb-4 text-left">Tech Stack:</h5>
-            <div class="grid grid-cols-4 lg:grid-cols-9">
+            <div class="grid grid-cols-4 lg:grid-cols-9 mb-4">
                 {
                     stack.map((item) => (
                         <img
