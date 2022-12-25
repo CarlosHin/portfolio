@@ -1,19 +1,19 @@
-<section class="mb-32 text-gray-800 text-center lg:text-left">
+---
+import LearningItem from "./LearningItem.astro";
+---
+
+<section class="lg:mb-32 text-gray-800 text-center lg:text-left">
     <style>
         @media (min-width: 992px) {
             .rotate-lg-6 {
                 transform: rotate(6deg);
             }
         }
-
-        /* These are the KEY styles - you can add them directly to any object you want in your project */
         .fancy-border-radius {
             border-radius: 53% 47% 52% 48% / 36% 41% 59% 64%;
         }
     </style>
-
-    <!-- Jumbotron -->
-    <div class="container mx-auto xl:px-32 text-center lg:text-left">
+    <div class="container mx-auto px-6 xl:px-32 text-center lg:text-left">
         <div class="grid lg:grid-cols-2 flex items-center">
             <div class="mb-12 lg:mb-0">
                 <div
@@ -28,39 +28,24 @@
                         actualmente estoy centrado en las siguientes materias:
                     </p>
 
-                    <div class="grid md:grid-cols-3 gap-x-6">
-                        <div class="mb-12 md:mb-0 flex flex-col justify-end">
-                            <img
-                                src="https://imgs.search.brave.com/WcjVBCN_muXVHpnqkng6pNSZEYYbgbS9IqQLY2LEDT8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4y/bms3Unh2Q3YwU3dO/QTJUN0hUc3N3SGFI/YSZwaWQ9QXBp"
-                                class="rounded-lg w-32 w-auto"
-                                alt=""
-                            />
-                            <h5
-                                class="text-center text-lg font-medium text-gray-500 mb-0 mt-2"
-                            >
-                                Solidity
-                            </h5>
-                        </div>
-
-                        <div
-                            class="mb-12 md:mb-0 h-full flex flex-col justify-end"
-                        >
-                            <img
-                                src="https://imgs.search.brave.com/0n0SBMu6c-2Wn9RaxJ0bBJFVHiY4AYuOsjg-ApTpmjs/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZW1l/bnRvLnRvcC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wNy9n/ZXJtYW55LWZsYWct/bGFyZ2UuanBn"
-                                class="rounded-lg w-32 w-auto"
-                                alt=""
-                            />
-                            <h5
-                                class="text-center text-lg font-medium text-gray-500 mb-0 mt-2"
-                            >
-                                Alemán
-                            </h5>
-                        </div>
+                    <div class="grid grid-cols-3 gap-x-6">
+                        <LearningItem
+                            img="https://imgs.search.brave.com/WcjVBCN_muXVHpnqkng6pNSZEYYbgbS9IqQLY2LEDT8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4y/bms3Unh2Q3YwU3dO/QTJUN0hUc3N3SGFI/YSZwaWQ9QXBp"
+                            name="Solidity"
+                        />
+                        <LearningItem
+                            img="https://imgs.search.brave.com/0n0SBMu6c-2Wn9RaxJ0bBJFVHiY4AYuOsjg-ApTpmjs/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZW1l/bnRvLnRvcC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wNy9n/ZXJtYW55LWZsYWct/bGFyZ2UuanBn"
+                            name="Alemán"
+                        />
+                        <LearningItem
+                            img="https://imgs.search.brave.com/CN7T9qoReVphayIhXlrp3JFdUdLrxY9x2N3vpCtGusE/rs:fit:300:180:1/g:ce/aHR0cHM6Ly9pY29u/YXBlLmNvbS93cC1j/b250ZW50L2ZpbGVz/L2FuLzM1MTU0Ni9w/bmcvdGFpbHdpbmQt/Y3NzLWxvZ28ucG5n"
+                            name="Tailwind"
+                        />
                     </div>
                 </div>
             </div>
 
-            <div>
+            <div class="hidden lg:block">
                 <img
                     src="https://images.pexels.com/photos/2846814/pexels-photo-2846814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     class="w-full shadow-lg fancy-border-radius rotate-lg-6"
@@ -69,5 +54,4 @@
             </div>
         </div>
     </div>
-    <!-- Jumbotron -->
 </section>
