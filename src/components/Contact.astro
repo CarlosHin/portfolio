@@ -73,6 +73,9 @@
 
     function formSubmit(e) {
         e.preventDefault();
+
+        const succesAlert = document.getElementById("success-alert");
+        succesAlert.style.display = "none";
         const formData = new FormData(e.target);
         fetch("https://getform.io/f/11f07c89-572f-46e0-8d1f-912393122dfc", {
             method: "POST",
