@@ -1,4 +1,5 @@
 ---
+import { t } from "i18next";
 import LearningItem from "./LearningItem.astro";
 ---
 
@@ -21,25 +22,24 @@ import LearningItem from "./LearningItem.astro";
                     style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px); z-index: 1"
                 >
                     <h2 class="text-3xl font-bold mb-4 display-5">
-                        Actualmente aprendiendo...
+                        {t("learning.title")}
                     </h2>
                     <p class="text-gray-500 mb-12">
-                        Soy una persona que le gusta aprender cosas cada día,
-                        actualmente estoy centrado en las siguientes materias:
+                        {t("learning.desc")}
                     </p>
 
                     <div class="grid grid-cols-3 gap-x-6">
                         <LearningItem
                             img="https://imgs.search.brave.com/WcjVBCN_muXVHpnqkng6pNSZEYYbgbS9IqQLY2LEDT8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4y/bms3Unh2Q3YwU3dO/QTJUN0hUc3N3SGFI/YSZwaWQ9QXBp"
-                            name="Solidity"
+                            name={t("learning.item1")}
                         />
                         <LearningItem
                             img="https://imgs.search.brave.com/0n0SBMu6c-2Wn9RaxJ0bBJFVHiY4AYuOsjg-ApTpmjs/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZW1l/bnRvLnRvcC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wNy9n/ZXJtYW55LWZsYWct/bGFyZ2UuanBn"
-                            name="Alemán"
+                            name={t("learning.item2")}
                         />
                         <LearningItem
                             img="https://imgs.search.brave.com/CN7T9qoReVphayIhXlrp3JFdUdLrxY9x2N3vpCtGusE/rs:fit:300:180:1/g:ce/aHR0cHM6Ly9pY29u/YXBlLmNvbS93cC1j/b250ZW50L2ZpbGVz/L2FuLzM1MTU0Ni9w/bmcvdGFpbHdpbmQt/Y3NzLWxvZ28ucG5n"
-                            name="Tailwind"
+                            name={t("learning.item3")}
                         />
                     </div>
                 </div>

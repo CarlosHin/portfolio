@@ -1,0 +1,23 @@
+{
+    "hero": {
+        "title":"Carlos Hinojosa Pinto",
+        "downloadCV":"Download CV"
+    },
+    "about": {
+        "title":"About me",
+        "desc":"I am a graduate of the Degree in Computer Engineering at UPV University. I consider myself a person who likes to learn new things every day and who likes challenges to overcome and develop. If you want to see my more technical profile you can download my resume here below. In my free time I like to exercise, especially at the gym and in the mountains. I also like to read historical and mystery novels.",
+        "bookTitle":"One Book",
+        "bookDesc":"The Truth About the Harry Quebert Affair",
+        "filmTitle":"One film",
+        "filmDesc":"300",
+        "foodTitle":"One meal",
+        "foodDesc":"Burguer"
+    },
+    "learning":{
+        "title":"Now Learning...",
+        "desc":"I am a person who likes to learn new things every day, currently I am focused on the following subjects:",        
+        "item1":"Solidity",
+        "item2":"Deutsch",
+        "item3":"Tailwind"
+    }
+}

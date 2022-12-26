@@ -1,3 +1,7 @@
+---
+import { t } from "i18next";
+---
+
 <section class="lg:mb-32 text-gray-800 text-center lg:text-left wow bounceInUp">
     <div class="mx-6 block rounded-lg shadow-lg">
         <div class="flex flex-wrap items-center">
@@ -13,46 +17,36 @@
             <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
                 <div class="px-6 py-12 md:px-12">
                     <h2 class="text-3xl font-bold mb-4 text-blue-600 display-5">
-                        Sobre mi
+                        {t("about.title")}
                     </h2>
                     <p class="text-gray-500 mb-6">
-                        Soy graduado del
-                        <b>
-                            Grado de ingenieria informática en la universidad
-                            UPV
-                        </b>. Me considero una persona a la que le gusta
-                        aprender cosas nuevas cada día y a la cual le gustan los
-                        desafios para superarse y desarrollarse. Si quieres ver
-                        mis perfil más técnico puedes descargar mi currículum
-                        aquí abajo.<br />
-                        En mi tiempo libre me gusta hacer ejercicio sobre todo en
-                        el gimnasio y en la montaña.
+                        {t("about.desc")}
                     </p>
                     <div class="grid lg:gap-x-12 md:grid-cols-3">
                         <div class="mb-12 md:mb-0">
                             <h2 class="text-3xl font-bold text-blue-600 mb-4">
-                                Un Libro
+                                {t("about.bookTitle")}
                             </h2>
                             <h5 class="text-lg font-medium text-gray-500 mb-0">
-                                La verdad sobre el caso Harry Quebert
+                                {t("about.bookDesc")}
                             </h5>
                         </div>
 
                         <div class="mb-12 md:mb-0">
                             <h2 class="text-3xl font-bold text-blue-600 mb-4">
-                                Una Pelicula
+                                {t("about.filmTitle")}
                             </h2>
                             <h5 class="text-lg font-medium text-gray-500 mb-0">
-                                300
+                                {t("about.filmDesc")}
                             </h5>
                         </div>
 
                         <div class="">
                             <h2 class="text-3xl font-bold text-blue-600 mb-4">
-                                Una Comida
+                                {t("about.foodTitle")}
                             </h2>
                             <h5 class="text-lg font-medium text-gray-500 mb-0">
-                                Hamburguesa
+                                {t("about.foodDesc")}
                             </h5>
                         </div>
                     </div>
