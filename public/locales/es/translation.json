@@ -19,5 +19,20 @@
         "item1":"Solidity",
         "item2":"Alemán",
         "item3":"Tailwind"
+    },
+    "experience":{
+        "title":"Experiencia",
+        "item1":{
+            "time":"Marzo 2019- Septiembre 2019"
+        },
+        "item2":{
+            "time":"Enero 2020 - Mayo 2020"
+        },
+        "item3":{
+            "time":"Noviembre 2020 - Septiembre 2021"
+        },
+        "item4":{
+            "time":"Septiembre 2021 - Actualidad"
+        }
     }
 }

@@ -1,34 +1,39 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro";
+import { t } from "i18next";
 ---
 
 <section class="mx-6 lg:mb-32 text-gray-800 text-center">
-    <h2 class="text-3xl font-bold mb-12 lg:mb-32">Experiencia</h2>
+    <h2 class="text-3xl font-bold mb-12 lg:mb-32">{t("experience.title")}</h2>
 
     <div class="grid gap-x-6 lg:gap-x-12 grid-cols-2 md:grid-cols-3">
         <ExperienceItem
             img="/img/logo_activalink.png"
             title="Activalink"
             desc="BBB"
-            time="Marzo 2019- Septiembre 2019"
+            time={t("experience.item1.time")}
+            link="https://www.linkedin.com/company/activalink/"
         />
         <ExperienceItem
             img="/img/logo_multiscan.png"
-            title="Multiscan"
+            title="Multiscan Technologies"
             desc="BBB"
-            time="Enero 2020 - Mayo 2020"
+            time={t("experience.item2.time")}
+            link="https://www.linkedin.com/company/multiscan-technologies-s-l/"
         />
         <ExperienceItem
             img="/img/logo_nttdata.webp"
             title="NTT DATA"
             desc="BBB"
-            time="Noviembre 2020 - Septiembre 2021"
+            time={t("experience.item3.time")}
+            link="https://www.linkedin.com/company/nttdata/"
         />
         <ExperienceItem
             img="/img/logo_iobuilders.png"
             title="IOBuilders"
             desc="BBB"
-            time="Septiembre 2021 - Actualidad"
+            time={t("experience.item4.time")}
+            link="https://www.linkedin.com/company/iobuilders/"
         />
     </div>
 </section>

@@ -4,9 +4,10 @@ export interface Props {
     title: string;
     desc: string;
     time: string;
+    link: string;
 }
 
-const { img, title, desc, time } = Astro.props as Props;
+const { img, title, desc, time, link } = Astro.props as Props;
 ---
 
 <div class="mb-24">
@@ -31,7 +32,7 @@ const { img, title, desc, time } = Astro.props as Props;
             </p>
             <p>Frontend Developer</p>
             <ul class="list-inside flex mx-auto justify-center">
-                <a href="#!" class="px-2">
+                <a href={link} class="px-2" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"

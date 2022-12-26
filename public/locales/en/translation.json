@@ -19,5 +19,20 @@
         "item1":"Solidity",
         "item2":"Deutsch",
         "item3":"Tailwind"
+    },
+    "experience":{
+        "title":"Experience",
+        "item1":{
+            "time":"March 2019 - September 2019"
+        },
+        "item2":{
+            "time":"January 2020 - May 2020"
+        },
+        "item3":{
+            "time":"November 2020 - September 2021"
+        },
+        "item4":{
+            "time":"September 2021 - Now"
+        }
     }
 }
