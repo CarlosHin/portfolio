@@ -23,16 +23,20 @@
     "experience": {
         "title": "Experiencia",
         "item1": {
-            "time": "Marzo 2019- Septiembre 2019"
+            "time": "Marzo 2019- Septiembre 2019",
+            "desc": "Desarrollo fullstack utilizando <b>PHP</b> para el backend, base de datos <b>MySQL</b> y JavaScript junto con <b>React</b> y <b>jQuery</b> para la parte frontend."
         },
         "item2": {
-            "time": "Enero 2020 - Mayo 2020"
+            "time": "Enero 2020 - Mayo 2020",
+            "desc": "Desarrollo de software en los lenguajes de programación <b>C++</b> y <b>Python</b>"
         },
         "item3": {
-            "time": "Noviembre 2020 - Septiembre 2021"
+            "time": "Noviembre 2020 - Septiembre 2021",
+            "desc": "Desarrollo fontEnd con <b>Angular</b> y testing utilizando <b>Jasmine</b> y <b>Karma</b>"
         },
         "item4": {
-            "time": "Septiembre 2021 - Actualidad"
+            "time": "Septiembre 2021 - Actualidad",
+            "desc": "Desarrollo Frontend utilizando <b>React</b> junto con <b>TypeScript</b> y realizando pruebas unitarias con <b>Jest</b>. Creando un <b><a href='https://nft.dcuniverse.com/splash'> Marketplace de NFTs para DC COMIC</a></b>"
         }
     },
     "skills": {

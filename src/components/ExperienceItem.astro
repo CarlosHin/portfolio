@@ -10,12 +10,11 @@ export interface Props {
 const { img, title, desc, time, link } = Astro.props as Props;
 ---
 
-<div class="mb-24">
+<div class="mb-16">
     <div class="rounded-lg shadow-lg h-full block bg-white wow fadeInUp">
         <div class="flex justify-center">
             <div
-                class="img-container flex justify-center items-center"
-                style="width: 70%;"
+                class="img-container flex justify-center items-center w-6/12 md:w-9/12"
             >
                 <img
                     src={img}
@@ -30,8 +29,8 @@ const { img, title, desc, time, link } = Astro.props as Props;
             <p class="text-xs lg mb-6 text-gray-400">
                 {time}
             </p>
-            <p>Frontend Developer</p>
-            <ul class="list-inside flex mx-auto justify-center">
+            <p class="text-gray-500 text-justify" set:html={desc} />
+            <ul class="pt-4 list-inside flex mx-auto justify-center">
                 <a href={link} class="px-2" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

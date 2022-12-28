@@ -4,14 +4,17 @@ import { t } from "i18next";
 ---
 
 <section class="lg:mb-32 text-gray-800 text-center">
-    <h2 class="text-3xl font-bold mb-12 lg:mb-32">{t("experience.title")}</h2>
+    <h2 class="text-3xl font-bold mb-12 lg:mb-16">{t("experience.title")}</h2>
 
-    <div class="grid gap-x-6 lg:gap-x-12 grid-cols-2 md:grid-cols-3">
+    <div
+        class="grid gap-x-2 lg:gap-x-12 grid-cols-1 md:grid-cols-3 pt-4 md:mt-0"
+    >
         <ExperienceItem
             img="/img/logo_activalink.png"
             title="Activalink"
             desc="BBB"
             time={t("experience.item1.time")}
+            desc={t("experience.item1.desc")}
             link="https://www.linkedin.com/company/activalink/"
         />
         <ExperienceItem
@@ -19,6 +22,7 @@ import { t } from "i18next";
             title="Multiscan Technologies"
             desc="BBB"
             time={t("experience.item2.time")}
+            desc={t("experience.item2.desc")}
             link="https://www.linkedin.com/company/multiscan-technologies-s-l/"
         />
         <ExperienceItem
@@ -26,6 +30,7 @@ import { t } from "i18next";
             title="NTT DATA"
             desc="BBB"
             time={t("experience.item3.time")}
+            desc={t("experience.item3.desc")}
             link="https://www.linkedin.com/company/nttdata/"
         />
         <ExperienceItem
@@ -33,6 +38,7 @@ import { t } from "i18next";
             title="IOBuilders"
             desc="BBB"
             time={t("experience.item4.time")}
+            desc={t("experience.item4.desc")}
             link="https://www.linkedin.com/company/iobuilders/"
         />
     </div>

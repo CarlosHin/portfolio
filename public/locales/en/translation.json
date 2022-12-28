@@ -23,16 +23,20 @@
     "experience": {
         "title": "Experience",
         "item1": {
-            "time": "March 2019 - September 2019"
+            "time": "March 2019 - September 2019",
+            "desc": "Fullstack developer using <PHP> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend"
         },
         "item2": {
-            "time": "January 2020 - May 2020"
+            "time": "January 2020 - May 2020",
+            "desc": "Software developer, I used <b>C++</b> and <b>Python</b> for programming scanners that detects fruit and vegetables defects."
         },
         "item3": {
-            "time": "November 2020 - September 2021"
+            "time": "November 2020 - September 2021",
+            "desc": "Frontend develper, using <b>Angular</b> with <b>Typescript</b> for develop a modern web application for a bank."
         },
         "item4": {
-            "time": "September 2021 - Now"
+            "time": "September 2021 - Now",
+            "desc": "Frontend developer using <b>React</b> with <b>TypeScript</b> and testing with <b>Jest</b>. Creating a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMIC</a></b>"
         }
     },
     "skills": {
