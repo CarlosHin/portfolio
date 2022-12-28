@@ -31,7 +31,7 @@ const skills2 = [...skills].splice(skills.length / 2);
 <section class="pb-6 lg:pb-12 text-gray-800 text-center max-w-full">
     <h2 class="text-3xl font-bold mb-2 lg:mb-8">{t("skills.title")}</h2>
     <div class="marquee-container">
-        <div class="marquee mb-2 wow bounceInRight">
+        <div class="marquee mb-2">
             <ul class="marquee__content">
                 {skills1.map((skill) => <MarqueeItem skill={skill} />)}
             </ul>
@@ -40,7 +40,7 @@ const skills2 = [...skills].splice(skills.length / 2);
             </ul>
         </div>
 
-        <div class="marquee wow bounceInLeft">
+        <div class="marquee">
             <ul class="marquee__content marquee__content_reverse">
                 {skills2.map((skill) => <MarqueeItem skill={skill} />)}
             </ul>
