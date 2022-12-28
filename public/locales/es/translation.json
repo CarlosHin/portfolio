@@ -1,38 +1,41 @@
 {
     "hero": {
-        "title":"Carlos Hinojosa Pinto",
-        "downloadCV":"Descargar CV"
+        "title": "Carlos Hinojosa Pinto",
+        "downloadCV": "Descargar CV"
     },
     "about": {
-        "title":"Sobre mi",
-        "desc":"Soy graduado del Grado de ingenieria informática en la universidad UPV . Me considero una persona a la que le gusta aprender cosas nuevas cada día y a la cual le gustan los desafios para superarse y desarrollarse. Si quieres ver mis perfil más técnico puedes descargar mi currículum aquí abajo. En mi tiempo libre me gusta hacer ejercicio sobre todo en el gimnasio y en la montaña. También me gusta leer novela histórica y de misterio.",
-        "bookTitle":"Un libro",
-        "bookDesc":"La verdad sobre el caso Harry Quebert",
-        "filmTitle":"Una Pelicula",
-        "filmDesc":"300",
-        "foodTitle":"Una Comida",
-        "foodDesc":"Hamburguesa"
+        "title": "Sobre mi",
+        "desc": "Soy graduado del Grado de ingenieria informática en la universidad UPV . Me considero una persona a la que le gusta aprender cosas nuevas cada día y a la cual le gustan los desafios para superarse y desarrollarse. Si quieres ver mis perfil más técnico puedes descargar mi currículum aquí abajo. En mi tiempo libre me gusta hacer ejercicio sobre todo en el gimnasio y en la montaña. También me gusta leer novela histórica y de misterio.",
+        "bookTitle": "Un libro",
+        "bookDesc": "La verdad sobre el caso Harry Quebert",
+        "filmTitle": "Una Pelicula",
+        "filmDesc": "300",
+        "foodTitle": "Una Comida",
+        "foodDesc": "Hamburguesa"
     },
-    "learning":{
-        "title":"Actualmente aprendiendo...",
-        "desc":"Soy una persona que le gusta aprender cosas cada día, actualmente estoy centrado en las siguientes materias:",
-        "item1":"Solidity",
-        "item2":"Alemán",
-        "item3":"Tailwind"
+    "learning": {
+        "title": "Actualmente aprendiendo...",
+        "desc": "Soy una persona que le gusta aprender cosas cada día, actualmente estoy centrado en las siguientes materias:",
+        "item1": "Solidity",
+        "item2": "Alemán",
+        "item3": "Astro"
     },
-    "experience":{
-        "title":"Experiencia",
-        "item1":{
-            "time":"Marzo 2019- Septiembre 2019"
+    "experience": {
+        "title": "Experiencia",
+        "item1": {
+            "time": "Marzo 2019- Septiembre 2019"
         },
-        "item2":{
-            "time":"Enero 2020 - Mayo 2020"
+        "item2": {
+            "time": "Enero 2020 - Mayo 2020"
         },
-        "item3":{
-            "time":"Noviembre 2020 - Septiembre 2021"
+        "item3": {
+            "time": "Noviembre 2020 - Septiembre 2021"
         },
-        "item4":{
-            "time":"Septiembre 2021 - Actualidad"
+        "item4": {
+            "time": "Septiembre 2021 - Actualidad"
         }
+    },
+    "skills": {
+        "title": "Conocimientos"
     }
 }

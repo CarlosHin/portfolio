@@ -1,0 +1,111 @@
+---
+import { t } from "i18next";
+import MarqueeItem from "./MarqueeItem.astro";
+
+export interface Skill {
+    img: string;
+    name: string;
+}
+const skills: Skill[] = [
+    { img: "ts.webp", name: "TypeScript" },
+    { img: "js.webp", name: "JavaScript" },
+    { img: "laravel.webp", name: "Laravel" },
+    { img: "php.webp", name: "PHP" },
+    { img: "next.webp", name: "Next JS" },
+    { img: "react.webp", name: "React JS" },
+    { img: "angular.webp", name: "Angular" },
+    { img: "nodejs.webp", name: "Node JS" },
+    { img: "bootstrap.webp", name: "Bootstrap" },
+    { img: "mysql.webp", name: "MySQL" },
+    { img: "html.webp", name: "HTML" },
+    { img: "css.webp", name: "Css" },
+    { img: "redux.webp", name: "Redux" },
+    { img: "tailwind.webp", name: "Tailwind" },
+    { img: "git.webp", name: "Git" },
+    { img: "linux.webp", name: "Linux" },
+].sort((a, b) => 0.5 - Math.random());
+---
+
+<section class="mx-6 lg:mb-4 text-gray-800 text-center">
+    <h2 class="text-3xl font-bold mb-2 lg:mb-32">{t("skills.title")}</h2>
+    <div class="marquee-container">
+        <div class="marquee mb-2 wow bounceInRight">
+            <ul class="marquee__content">
+                {skills.map((skill) => <MarqueeItem skill={skill} />)}
+            </ul>
+            <ul class="marquee__content">
+                {skills.map((skill) => <MarqueeItem skill={skill} />)}
+            </ul>
+        </div>
+
+        <div class="marquee mb-10 wow bounceInRight">
+            <ul class="marquee__content marquee__content_reverse">
+                {skills.map((skill) => <MarqueeItem skill={skill} />)}
+            </ul>
+            <ul class="marquee__content marquee__content_reverse">
+                {skills.map((skill) => <MarqueeItem skill={skill} />)}
+            </ul>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Marquee styles */
+    .marquee {
+        --gap: 1px;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        user-select: none;
+        gap: var(--gap);
+    }
+
+    .marquee__content {
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        gap: var(--gap);
+        min-width: 100%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    @keyframes scroll {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(calc(-100% - var(--gap)));
+        }
+    }
+
+    @keyframes scroll-reverse {
+        from {
+            transform: translateX(calc(-100% - var(--gap)));
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    /* Enable animation */
+    .marquee__content {
+        animation: scroll 30s linear infinite;
+    }
+
+    .marquee__content_reverse {
+        animation: scroll-reverse 30s linear infinite;
+    }
+
+    /* Other page demo styles */
+    .marquee__content > * {
+        flex: 0 0 auto;
+        color: white;
+        margin: 2px;
+        border-radius: 0.25rem;
+        text-align: center;
+    }
+    .marquee-container:hover .marquee__content {
+        animation-play-state: paused;
+    }
+</style>
