@@ -48,14 +48,16 @@ const { title } = Astro.props as Props;
 		</script>
 	</head>
 	<body>
-		<Hero />
-		<About />
-		<Skills />
-		<Learning />
-		<Experience />
-		<Proyects />
-		<Contact />
-		<slot />
+		<div class="px-6">
+			<Hero />
+			<About />
+			<Skills />
+			<Learning />
+			<Experience />
+			<Proyects />
+			<Contact />
+			<slot />
+		</div>
 	</body>
 </html>
 <style>
