@@ -1,57 +1,77 @@
 ---
 import ProyectsItem from "./ProyectsItem.astro";
+import { t } from "i18next";
+const dOptions = [
+    "M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,128C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z",
+    "M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z",
+    "M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,128C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z",
+];
 ---
 
 <section class="mb-32 text-gray-800 text-center">
-    <h2 class="text-3xl font-bold mb-12">Proyectos personales</h2>
+    <h2 class="text-3xl font-bold mb-12">
+        {t("proyects.title")}
+    </h2>
 
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
         <ProyectsItem
             img="/img/screenshot-sellCars.png"
-            title="Sell Cars"
-            desc=""
-            d="M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,128C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            stack={["next.webp", "ts.webp"]}
+            title={t("proyects.item1.title")}
+            desc={t("proyects.item1.desc")}
+            d={dOptions[0]}
+            stack={["next.webp", "ts.webp", "html.webp", "css.webp"]}
             link="https://sell-car-carlosh.vercel.app/cars"
         />
         <ProyectsItem
             img="/img/screenshot-tfg.png"
-            title="TFG"
-            desc=""
-            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            stack={["react.webp", "php.webp"]}
+            title={t("proyects.item2.title")}
+            desc={t("proyects.item2.desc")}
+            d={dOptions[1]}
+            stack={[
+                "react.webp",
+                "php.webp",
+                "html.webp",
+                "css.webp",
+                "js.webp",
+            ]}
             link="https://www.tfg.carlosh.es/app/index.php?codigo=13&clave=123"
         />
         <ProyectsItem
             img="/img/screenshot-alacontra.png"
-            title="Alacontra"
-            desc=""
-            d="M0,96L48,128C96,160,192,224,288,240C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,128C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            stack={["js.webp", "php.webp"]}
+            title={t("proyects.item3.title")}
+            desc={t("proyects.item3.desc")}
+            d={dOptions[2]}
+            stack={["php.webp", "html.webp", "css.webp", "js.webp"]}
             link="http://www.alacontra.de/"
         />
         <ProyectsItem
             img="/img/screenshot-miguelPinto.png"
-            title="Miguel Pinto"
-            desc=""
-            d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            stack={["next.webp", "ts.webp"]}
+            title={t("proyects.item4.title")}
+            desc={t("proyects.item4.desc")}
+            d={dOptions[0]}
+            stack={["next.webp", "ts.webp", "html.webp", "css.webp", "js.webp"]}
             link="https://miguel-pinto.vercel.app/"
         />
         <ProyectsItem
             img="/img/screenshot-libros.png"
-            title="Libros"
-            desc=""
-            d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            stack={["laravel.webp"]}
+            title={t("proyects.item5.title")}
+            desc={t("proyects.item5.desc")}
+            d={dOptions[1]}
+            stack={[
+                "laravel.webp",
+                "php.webp",
+                "html.webp",
+                "css.webp",
+                "js.webp",
+            ]}
             link="https://libros.carlosh.es/"
         />
         <ProyectsItem
             img="/img/screenshot-photoSearcher.png"
-            title="Photo Searcher"
-            desc=""
-            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            stack={["react.webp"]}
+            title={t("proyects.item6.title")}
+            desc={t("proyects.item6.desc")}
+            d={dOptions[2]}
+            stack={["react.webp", "html.webp", "css.webp", "js.webp"]}
             link="http://photos.carlosh.es/"
         />
     </div>

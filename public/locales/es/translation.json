@@ -41,5 +41,33 @@
     },
     "skills": {
         "title": "Conocimientos"
+    },
+    "proyects": {
+        "title": "Proyectos personales",
+        "visit": "Visitar",
+        "item1": {
+            "title": "Sell Cars",
+            "desc": "Web para poner coches en venta."
+        },
+        "item2": {
+            "title": "TFG",
+            "desc": "Trabajo de fin de grado para el Grado de Ingeniería Informática. La web permite realizar pedidos desde la mesa de un restaurante utilizando tu móvil. Para el desarrollo utilicé PHP para el Backend y React para el Frontend"
+        },
+        "item3": {
+            "title": "Alacontra Web",
+            "desc": "Web para promocionar muñecos de ganchillo."
+        },
+        "item4": {
+            "title": "Web Miguel Pinto",
+            "desc": "Web informativa del pintor Miguel Pinto usando NextJS y desplegada en Vercel"
+        },
+        "item5": {
+            "title": "Web Libros",
+            "desc": "Web para llevar un seguimiento de tus libros leidos."
+        },
+        "item6": {
+            "title": "Photo searcher",
+            "desc": "Web para realizar búsqueda de imágenes utilizando la API de Unplash. Utilizando React y Redux."
+        }
     }
 }

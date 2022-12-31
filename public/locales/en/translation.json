@@ -41,5 +41,33 @@
     },
     "skills": {
         "title": "Skills"
+    },
+    "proyects": {
+        "title": "Personal Proyects",
+        "visit": "View",
+        "item1": {
+            "title": "Sell Cars",
+            "desc": "Web to publish cars."
+        },
+        "item2": {
+            "title": "TFG",
+            "desc": "Final proyect for the Computer Science Degree. This web allow you to order food from a restaurant."
+        },
+        "item3": {
+            "title": "Alacontra Web",
+            "desc": "Web for promote crochet toys."
+        },
+        "item4": {
+            "title": "Web Miguel Pinto",
+            "desc": "Web for the painter Miguel Pinto. Using NextJS and deployed in Vercel."
+        },
+        "item5": {
+            "title": "Web Libros",
+            "desc": "Web to organice your books."
+        },
+        "item6": {
+            "title": "Photo searcher",
+            "desc": "Web that allow you to search photos using the Unplash API, React and Redux."
+        }
     }
 }
