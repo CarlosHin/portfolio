@@ -69,5 +69,14 @@
             "title": "Photo searcher",
             "desc": "Web para realizar búsqueda de imágenes utilizando la API de Unplash. Utilizando React y Redux."
         }
+    },
+    "contact": {
+        "title": "Contacto",
+        "desc": "Puedes contactar conmigo por email o completando el siguiente formulario.",
+        "alert": "Muchas gracias por tu mensaje!",
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje",
+        "send": "Enviar"
     }
 }
