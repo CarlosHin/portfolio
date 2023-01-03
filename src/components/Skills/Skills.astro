@@ -1,6 +1,7 @@
 ---
 import { t } from "i18next";
 import Marquee from "./Marquee.astro";
+import SkillModal from "./SkillModal.astro";
 
 export interface Skill {
     img: string;
@@ -8,22 +9,22 @@ export interface Skill {
 }
 const skills: Skill[] = [
     { img: "ts.webp", name: "TypeScript" },
-    { img: "js.webp", name: "JavaScript" },
+    { img: "nodejs.webp", name: "Node JS" },
+    { img: "next.webp", name: "Next JS" },
     { img: "laravel.webp", name: "Laravel" },
     { img: "php.webp", name: "PHP" },
-    { img: "next.webp", name: "Next JS" },
     { img: "react.webp", name: "React JS" },
+    { img: "git.webp", name: "Git" },
     { img: "angular.webp", name: "Angular" },
-    { img: "nodejs.webp", name: "Node JS" },
     { img: "bootstrap.webp", name: "Bootstrap" },
     { img: "mysql.webp", name: "MySQL" },
-    { img: "html.webp", name: "HTML" },
-    { img: "css.webp", name: "Css" },
     { img: "redux.webp", name: "Redux" },
     { img: "tailwind.webp", name: "Tailwind" },
-    { img: "git.webp", name: "Git" },
     { img: "linux.webp", name: "Linux" },
     { img: "chakra-ui.webp", name: "Chakra UI" },
+    { img: "html.webp", name: "HTML" },
+    { img: "css.webp", name: "Css" },
+    { img: "js.webp", name: "JavaScript" },
     { img: "jquery.webp", name: "JQuery" },
 ];
 const skills1 = [...skills].splice(0, skills.length / 2);
@@ -40,8 +41,10 @@ const skills2 = [...skills].splice(skills.length / 2);
         type="button"
         class="inline-block px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
         data-bs-toggle="modal"
-        data-bs-target="#exampleModalCenterTitle"
+        data-bs-target="#exampleModalCenteredScrollable"
     >
-        Ver lista
+        {t("skills.viewList")}
     </button>
 </section>
+
+<SkillModal skills={skills} />

@@ -1,7 +1,8 @@
 {
     "hero": {
         "title": "Carlos Hinojosa Pinto",
-        "downloadCV": "Download CV"
+        "downloadCV": "Download CV",
+        "cv": "/CV-CarlosHinojosa.pdf"
     },
     "about": {
         "title": "About me",
@@ -22,6 +23,7 @@
     },
     "experience": {
         "title": "Experience",
+        "intership": "Intership",
         "item1": {
             "time": "March 2019 - September 2019",
             "desc": "Fullstack developer using <PHP> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend"
@@ -40,7 +42,8 @@
         }
     },
     "skills": {
-        "title": "Skills"
+        "title": "Skills",
+        "viewList": "View list"
     },
     "proyects": {
         "title": "Personal Proyects",
