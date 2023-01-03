@@ -1,7 +1,7 @@
 ---
-// src/pages/index.astro
 import { t } from "i18next";
 import { LanguageSelector } from "astro-i18next/components";
+import TypedText from "./TypedText.astro";
 ---
 
 <section class="lg:mb-16 text-gray-800 text-center lg:text-left">
@@ -19,10 +19,12 @@ import { LanguageSelector } from "astro-i18next/components";
             </div>
             <div>
                 <h2
-                    class="my-4 text-3xl lg:text-5xl font-bold tracking-tight leading-tight"
+                    class="my-2 text-3xl lg:text-5xl font-bold tracking-tight leading-tight"
                 >
                     {t("hero.title")}
                 </h2>
+
+                <TypedText />
                 <div class="flex mb-8 justify-center lg:justify-start">
                     <a href="https://github.com/Carloshin" target="_blank">
                         <i class="fa fa-github text-3xl lg:text-4xl mr-4"></i>

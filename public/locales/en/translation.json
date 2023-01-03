@@ -2,7 +2,7 @@
     "hero": {
         "title": "Carlos Hinojosa Pinto",
         "downloadCV": "Download CV",
-        "cv": "/CV-CarlosHinojosa.pdf"
+        "cv": "/CV-CarlosHinojosa_en.pdf"
     },
     "about": {
         "title": "About me",
@@ -26,7 +26,7 @@
         "intership": "Intership",
         "item1": {
             "time": "March 2019 - September 2019",
-            "desc": "Fullstack developer using <PHP> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend"
+            "desc": "Fullstack developer using <b>PHP</b> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend."
         },
         "item2": {
             "time": "January 2020 - May 2020",
@@ -38,7 +38,7 @@
         },
         "item4": {
             "time": "September 2021 - Now",
-            "desc": "Frontend developer using <b>React</b> with <b>TypeScript</b> and testing with <b>Jest</b>. Creating a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMIC</a></b>"
+            "desc": "Frontend developer using <b>React</b> with <b>TypeScript</b> and testing with <b>Jest</b>. Creating a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMIC</a></b> in the Palm Blockchain."
         }
     },
     "skills": {

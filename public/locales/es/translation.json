@@ -30,15 +30,15 @@
         },
         "item2": {
             "time": "Enero 2020 - Mayo 2020",
-            "desc": "Desarrollo de software en los lenguajes de programación <b>C++</b> y <b>Python</b>"
+            "desc": "Desarrollo de software en los lenguajes de programación <b>C++</b> y <b>Python</b> para clasificación de fruta y verdura en tiempo real."
         },
         "item3": {
             "time": "Noviembre 2020 - Septiembre 2021",
-            "desc": "Desarrollo fontEnd con <b>Angular</b> y testing utilizando <b>Jasmine</b> y <b>Karma</b>"
+            "desc": "Desarrollo Frontend con <b>Angular</b> y testing utilizando <b>Jasmine</b> y <b>Karma</b>. En mi estancia en NTT Data estuve en dos proyectos, en el primero desarrollaba una web para una banco online, y en el segundo una web interna para una teleoperadora móvil."
         },
         "item4": {
             "time": "Septiembre 2021 - Actualidad",
-            "desc": "Desarrollo Frontend utilizando <b>React</b> junto con <b>TypeScript</b> y realizando pruebas unitarias con <b>Jest</b>. Creando un <b><a href='https://nft.dcuniverse.com/splash'> Marketplace de NFTs para DC COMIC</a></b>"
+            "desc": "Desarrollo Frontend utilizando <b>React</b> junto con <b>TypeScript</b> y la libreria de estilos <b>Chakra UI</b> y realizando pruebas unitarias con <b>Jest</b>. Creando un <b><a href='https://nft.dcuniverse.com/splash'> Marketplace de NFTs para DC COMIC</a></b> para la blockchain de Palm."
         }
     },
     "skills": {
