@@ -745,6 +745,11 @@
   dependencies:
     "tslib" "^2.0.1"
 
+"astro-google-analytics@^1.0.3":
+  "integrity" "sha512-5bD7jA15yxVaUFVVEFG6KKMphYJ4AKP4+HSqCVBpTBnqh8LL0giTdAHpG9KJs3JaFbGQUTWP5Pqt8+twz7f55Q=="
+  "resolved" "https://registry.npmjs.org/astro-google-analytics/-/astro-google-analytics-1.0.3.tgz"
+  "version" "1.0.3"
+
 "astro-i18next@^1.0.0-beta.14":
   "integrity" "sha512-NfIJqI7hKTkvZX2IVNB6EgBvjMbmETIN6op573h5L/ktyvUT6Z29oEFztgaNV/wuXdEmsvPbFEA7I1TdOHuf8w=="
   "resolved" "https://registry.npmjs.org/astro-i18next/-/astro-i18next-1.0.0-beta.14.tgz"
