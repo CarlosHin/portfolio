@@ -6,7 +6,7 @@
     },
     "about": {
         "title": "About me",
-        "desc": "I am a graduate of the Degree in Computer Engineering at UPV University. I consider myself a person who likes to learn new things every day and who likes challenges to overcome and develop. If you want to see my more technical profile you can download my resume here below. In my free time I like to exercise, especially at the gym and in the mountains. I also like to read historical and mystery novels.",
+        "desc": "I am a Computer Engineering graduate from the Polytechnic University of Valencia, in Spain with more 3 years of experience in the field. I love to learn new things and acquire new skills every day, in my free time I like to read, going to the gym and run in the mountain.",
         "bookTitle": "One Book",
         "bookDesc": "The Truth About the Harry Quebert Affair",
         "filmTitle": "One film",
@@ -16,7 +16,7 @@
     },
     "learning": {
         "title": "Now Learning...",
-        "desc": "I am a person who likes to learn new things every day, currently I am focused on the following subjects:",
+        "desc": "Currently I am focused on the following subjects:",
         "item1": "Solidity",
         "item2": "German",
         "item3": "Astro"
