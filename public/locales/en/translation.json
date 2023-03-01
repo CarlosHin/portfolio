@@ -6,7 +6,7 @@
     },
     "about": {
         "title": "About me",
-        "desc": "I am a Computer Engineering graduate from the Polytechnic University of Valencia, in Spain with more 3 years of experience in the field. I love to learn new things and acquire new skills every day, in my free time I like to read, going to the gym and run in the mountain.",
+        "desc": "I am a Computer Engineer graduated from the Polytechnic University of Valencia in Spain, with more than 3 years of experience in the field. I love learning new things and acquiring new skills every day. In my free time, I enjoy reading, going to the gym, and trail running.",
         "bookTitle": "One Book",
         "bookDesc": "The Truth About the Harry Quebert Affair",
         "filmTitle": "One film",
@@ -17,7 +17,7 @@
     "learning": {
         "title": "Now Learning...",
         "desc": "Currently I am focused on the following subjects:",
-        "item1": "Solidity",
+        "item1": "NestJS",
         "item2": "German",
         "item3": "Astro"
     },
