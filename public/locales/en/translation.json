@@ -23,7 +23,7 @@
     },
     "experience": {
         "title": "Experience",
-        "intership": "Intership",
+        "intership": "Internship",
         "item1": {
             "time": "March 2019 - September 2019",
             "desc": "Fullstack developer using <b>PHP</b> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend."
@@ -54,7 +54,7 @@
         },
         "item2": {
             "title": "TFG",
-            "desc": "Final proyect for the Computer Science Degree. This web allow you to order food from a restaurant."
+            "desc": "Final project for the Computer Science Degree. This web allow you to order food from a restaurant."
         },
         "item3": {
             "title": "Alacontra Web",
