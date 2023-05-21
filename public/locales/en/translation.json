@@ -37,8 +37,12 @@
             "desc": "Frontend developer, using <b>Angular</b> with <b>Typescript</b> for develop a modern web application for a bank."
         },
         "item4": {
-            "time": "September 2021 - Now",
+            "time": "September 2021 - May 2023",
             "desc": "Frontend developer using <b>React</b> with <b>TypeScript</b> and testing with <b>Jest</b>. Creating a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMIC</a></b> in the Palm Blockchain. Working with a team in different time zones and with meetings in English."
+        },
+        "item5": {
+            "time": "May 2023 - Now",
+            "desc": "Developing, and maintaining both the front-end and back-end components of various software applications, ussing <b>React</b> and <b>PHP</b>. I collaborate closely with cross-functional teams, including designers and project managers, to ensure the successful implementation of projects."
         }
     },
     "skills": {
