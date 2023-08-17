@@ -17,9 +17,8 @@
     "learning": {
         "title": "Now Learning...",
         "desc": "Currently I am focused on the following subjects:",
-        "item1": "NestJS",
-        "item2": "German",
-        "item3": "Astro"
+        "item1": "Solidity",
+        "item2": "German"
     },
     "experience": {
         "title": "Experience",
