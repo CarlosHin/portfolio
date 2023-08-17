@@ -2,69 +2,93 @@
 import { t } from "i18next";
 
 export interface Props {
-    img: string;
-    title: string;
-    desc: string;
-    time: string;
-    link: string;
-    isIntership?: boolean;
+  img: string;
+  title: string;
+  desc: string;
+  time: string;
+  link: string;
+  isIntership?: boolean;
 }
 
 const { img, title, desc, time, link, isIntership } = Astro.props as Props;
 ---
 
 <div class="mb-16">
-    <div class="rounded-lg shadow-lg h-full block bg-white wow fadeInUp">
-        <div class="flex justify-center">
-            <div class="img-container flex justify-center items-center w-6/12 md:w-4/12">
-                <img
-                    src={img}
-                    class="w-full mx-auto shadow-lg bg-white p-2"
-                    alt=""
-                    style="height: min-content;"
-                />
-            </div>
-        </div>
-        <div class="p-6">
-            {
-                isIntership && (
-                    <p class="text-md lg mb-0 text-gray-400">
-                        ({t("experience.intership")})
-                    </p>
-                )
-            }
-            <h5 class="text-lg font-bold">{title}</h5>
-            <p class="text-xs lg mb-6 text-gray-400">
-                {time}
-            </p>
-            <p class="text-xs text-gray-500 text-justify" set:html={desc} />
-            <ul class="pt-4 list-inside flex mx-auto justify-center">
-                <a href={link} class="px-2" target="_blank">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 448 512"
-                        class="w-4 h-4 text-blue-600"
-                    >
-                        <path
-                            fill="currentColor"
-                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                        ></path>
-                    </svg>
-                </a>
-            </ul>
-        </div>
+  <div class="rounded-lg shadow-lg h-full block bg-white revealing-scroll-item">
+    <div class="flex justify-center">
+      <div
+        class="img-container flex justify-center items-center w-6/12 md:w-4/12"
+      >
+        <img
+          src={img}
+          class="w-full mx-auto shadow-lg bg-white p-2"
+          alt=""
+          style="height: min-content;"
+        />
+      </div>
     </div>
+    <div class="p-6">
+      {
+        isIntership && (
+          <p class="text-md lg mb-0 text-gray-400">
+            ({t("experience.intership")})
+          </p>
+        )
+      }
+      <h5 class="text-lg font-bold">{title}</h5>
+      <p class="text-xs lg mb-6 text-gray-400">
+        {time}
+      </p>
+      <p class="text-xs text-gray-500 text-justify" set:html={desc} />
+      <ul class="pt-4 list-inside flex mx-auto justify-center">
+        <a href={link} class="px-2" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            class="w-4 h-4 text-blue-600"
+          >
+            <path
+              fill="currentColor"
+              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+            ></path>
+          </svg>
+        </a>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <style>
+  .img-container {
+    height: 170px;
+    margin-top: -75px;
+  }
+  @media only screen and (max-width: 600px) {
     .img-container {
-        height: 170px;
-        margin-top: -75px;
+      height: 50px;
+      margin-top: -15px;
     }
-    @media only screen and (max-width: 600px) {
-        .img-container {
-            height: 50px;
-            margin-top: -15px;
-        }
+  }
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
     }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .revealing-scroll-item {
+    /* Create View Timeline */
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation: linear reveal both;
+    animation-timeline: --revealing-image;
+
+    /* Tweak range when effect should run*/
+    animation-range: entry 25% cover 40%;
+  }
 </style>

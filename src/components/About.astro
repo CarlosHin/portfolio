@@ -3,57 +3,82 @@ import { t } from "i18next";
 ---
 
 <section
-    class="mb-6 lg:mb-32 text-gray-800 text-center lg:text-left wow bounceInUp"
+  class="mb-6 lg:mb-32 text-gray-800 text-center lg:text-left revealing-scroll-item"
 >
-    <div class="block rounded-lg shadow-lg">
-        <div class="flex flex-wrap items-center">
-            <div
-                class="block w-full lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12"
-            >
-                <img
-                    src="/img/aboutMe_img.jpg"
-                    alt=""
-                    class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
-                />
+  <div class="block rounded-lg shadow-lg">
+    <div class="flex flex-wrap items-center">
+      <div
+        class="block w-full lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12"
+      >
+        <img
+          src="/img/aboutMe_img.jpg"
+          alt=""
+          class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
+        />
+      </div>
+      <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+        <div class="px-6 py-12 md:px-12">
+          <h2 class="text-3xl font-bold mb-4 text-blue-600 display-5">
+            {t("about.title")}
+          </h2>
+          <p class="text-gray-500 mb-6">
+            {t("about.desc")}
+          </p>
+          <div class="grid lg:gap-x-12 md:grid-cols-3">
+            <div class="mb-12 md:mb-0">
+              <h2 class="text-3xl font-bold text-blue-600 mb-4">
+                {t("about.bookTitle")}
+              </h2>
+              <h5 class="text-lg font-medium text-gray-500 mb-0">
+                {t("about.bookDesc")}
+              </h5>
             </div>
-            <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
-                <div class="px-6 py-12 md:px-12">
-                    <h2 class="text-3xl font-bold mb-4 text-blue-600 display-5">
-                        {t("about.title")}
-                    </h2>
-                    <p class="text-gray-500 mb-6">
-                        {t("about.desc")}
-                    </p>
-                    <div class="grid lg:gap-x-12 md:grid-cols-3">
-                        <div class="mb-12 md:mb-0">
-                            <h2 class="text-3xl font-bold text-blue-600 mb-4">
-                                {t("about.bookTitle")}
-                            </h2>
-                            <h5 class="text-lg font-medium text-gray-500 mb-0">
-                                {t("about.bookDesc")}
-                            </h5>
-                        </div>
 
-                        <div class="mb-12 md:mb-0">
-                            <h2 class="text-3xl font-bold text-blue-600 mb-4">
-                                {t("about.filmTitle")}
-                            </h2>
-                            <h5 class="text-lg font-medium text-gray-500 mb-0">
-                                {t("about.filmDesc")}
-                            </h5>
-                        </div>
-
-                        <div class="">
-                            <h2 class="text-3xl font-bold text-blue-600 mb-4">
-                                {t("about.foodTitle")}
-                            </h2>
-                            <h5 class="text-lg font-medium text-gray-500 mb-0">
-                                {t("about.foodDesc")}
-                            </h5>
-                        </div>
-                    </div>
-                </div>
+            <div class="mb-12 md:mb-0">
+              <h2 class="text-3xl font-bold text-blue-600 mb-4">
+                {t("about.filmTitle")}
+              </h2>
+              <h5 class="text-lg font-medium text-gray-500 mb-0">
+                {t("about.filmDesc")}
+              </h5>
             </div>
+
+            <div class="">
+              <h2 class="text-3xl font-bold text-blue-600 mb-4">
+                {t("about.foodTitle")}
+              </h2>
+              <h5 class="text-lg font-medium text-gray-500 mb-0">
+                {t("about.foodDesc")}
+              </h5>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
+
+<style>
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .revealing-scroll-item {
+    /* Create View Timeline */
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation: linear reveal both;
+    animation-timeline: --revealing-image;
+
+    /* Tweak range when effect should run*/
+    animation-range: entry 25% cover 40%;
+  }
+</style>
