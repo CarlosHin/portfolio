@@ -48,8 +48,8 @@ const skills2 = [...skills].splice(skills.length / 2);
       {
         stack.map((item) => {
           return (
-            <div class="rounded-lg shadow-lg font-semibold flex flex-col items-center p-2 m-2">
-              <img class="h-9 max-w-none" src={`/img/techs/${item.img}`} />
+            <div class="rounded-lg shadow-lg font-semibold flex flex-col items-center p-4 m-2">
+              <img class="h-9 object-contains" src={`/img/techs/${item.img}`} />
               <h2 class="flex font-bold items-center text-sm px-3 py-2 text-gray-500">
                 {item.name}
               </h2>
