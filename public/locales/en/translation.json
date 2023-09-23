@@ -45,6 +45,7 @@
         }
     },
     "skills": {
+        "fav": "Favourite Stack",
         "title": "Skills",
         "viewList": "View list"
     },

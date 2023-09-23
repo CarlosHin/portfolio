@@ -45,6 +45,7 @@
         }
     },
     "skills": {
+        "fav": "Favourite Stack",
         "title": "Conocimientos",
         "viewList": "Ver lista"
     },
