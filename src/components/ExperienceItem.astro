@@ -39,7 +39,7 @@ const { img, title, desc, time, link, isIntership } = Astro.props as Props;
       <p class="text-xs lg mb-6 text-gray-400">
         {time}
       </p>
-      <p class="text-xs text-gray-500 text-justify" set:html={desc} />
+      <div class="text-xs text-gray-500 text-justify" set:html={desc} />
       <ul class="pt-4 list-inside flex mx-auto justify-center">
         <a href={link} class="px-2" target="_blank">
           <svg
