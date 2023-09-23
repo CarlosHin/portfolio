@@ -41,7 +41,7 @@
         },
         "item5": {
             "time": "May 2023 - Now",
-            "desc": "Development of a web platform for SIA. <ul><li>Creating components in <b>React</b>.</li><li>Develop backend platform with the CMS Drupal (Headless) with <b>PHP</b>.</li><li>Connect frontend and backend.</li><li>Managing databases.</li><li>Managing containers with Docker.</li></ul>"
+            "desc": "Development of a web platform for SIA. <ul><li>- Creating components in <b>React</b>.</li><li>- Develop backend platform with the CMS Drupal (Headless) with <b>PHP</b>.</li><li>- Connect frontend and backend.</li><li>- Managing databases.</li><li>- Managing containers with Docker.</li></ul>"
         }
     },
     "skills": {
