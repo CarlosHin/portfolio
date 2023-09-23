@@ -13,7 +13,7 @@ export interface Props {
 const { img, title, desc, time, link, isIntership } = Astro.props as Props;
 ---
 
-<div class="mb-16">
+<div class="mb-16" id="experience-item">
   <div class="rounded-lg shadow-lg h-full block bg-white revealing-scroll-item">
     <div class="flex justify-center">
       <div
@@ -90,5 +90,8 @@ const { img, title, desc, time, link, isIntership } = Astro.props as Props;
 
     /* Tweak range when effect should run*/
     animation-range: entry 25% cover 40%;
+  }
+  #experience-item li {
+    list-style: disc;
   }
 </style>
