@@ -41,7 +41,7 @@
         },
         "item5": {
             "time": "May 2023 - Now",
-            "desc": "Developing, and maintaining both the front-end and back-end components of various software applications, ussing <b>React</b> and <b>PHP</b>. I collaborate closely with cross-functional teams, including designers and project managers, to ensure the successful implementation of projects."
+            "desc": "Development of a web platform for SIA. <ul><li>Creating components in <b>React</b>.</li><li>Develop backend platform with the CMS Drupal (Headless) with <b>PHP</b>.</li><li>Connect frontend and backend.</li><li>Managing databases.</li><li>Managing containers with Docker.</li></ul>"
         }
     },
     "skills": {
