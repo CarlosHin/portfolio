@@ -33,11 +33,11 @@
         },
         "item3": {
             "time": "November 2020 - September 2021",
-            "desc": "Frontend developer, using <b>Angular</b> with <b>Typescript</b> for develop a modern web application for a bank."
+            "desc": "Working for different projects on the front-end.<ul><li>- Development in Angular and React.</li><li>- Databases management.</li><li>- Unit and functional tests.</li><li>- Agile methodology.</li></ul>"
         },
         "item4": {
             "time": "September 2021 - May 2023",
-            "desc": "Frontend developer using <b>React</b> with <b>TypeScript</b> and testing with <b>Jest</b>. Creating a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMIC</a></b> in the Palm Blockchain. Working with a team in different time zones and with meetings in English."
+            "desc": "Development of a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMICS</a></b> on the Palm blockchain.<ul><li>- Implementing different functionalities with <b>React</b>and <b>TypeScript</b>.</li><li>- Making deployments to the different environments.</li><li>- Unit tests for each component of the application.</li><li>- SCRUM planning using Jira.</li></ul>"
         },
         "item5": {
             "time": "May 2023 - Now",
