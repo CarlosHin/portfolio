@@ -59,6 +59,9 @@ const { img, title, desc, time, link, isIntership } = Astro.props as Props;
 </div>
 
 <style>
+  ul {
+    list-style: disc !important;
+  }
   .img-container {
     height: 170px;
     margin-top: -75px;
@@ -90,8 +93,5 @@ const { img, title, desc, time, link, isIntership } = Astro.props as Props;
 
     /* Tweak range when effect should run*/
     animation-range: entry 25% cover 40%;
-  }
-  #experience-item ul {
-    list-style: disc !important;
   }
 </style>
