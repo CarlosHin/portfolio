@@ -1,0 +1,48 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+import { t } from "i18next";
+---
+
+<section class="lg:mb-32 text-gray-800 text-center">
+  <h2 class="text-3xl font-bold mb-12 lg:mb-16">{t("experience.title")}</h2>
+
+  <div class="grid gap-x-2 lg:gap-x-12 grid-cols-1 md:grid-cols-2 pt-4 md:mt-0">
+    <ExperienceItem
+      img="/img/experience/logo_sia.png"
+      title="SIA"
+      time={t("experience.item5.time")}
+      desc={t("experience.item5.desc")}
+      link="https://www.linkedin.com/company/sia-schweizerischer-ingenieur-und-architektenverein?originalSubdomain=ch"
+    />
+    <ExperienceItem
+      img="/img/experience/logo_iobuilders.png"
+      title="IOBuilders"
+      time={t("experience.item4.time")}
+      desc={t("experience.item4.desc")}
+      link="https://www.linkedin.com/company/iobuilders/"
+    />
+    <ExperienceItem
+      img="/img/experience/logo_nttdata.webp"
+      title="NTT DATA"
+      time={t("experience.item3.time")}
+      desc={t("experience.item3.desc")}
+      link="https://www.linkedin.com/company/nttdata/"
+    />
+    <ExperienceItem
+      img="/img/experience/logo_multiscan.png"
+      title="Multiscan Technologies"
+      time={t("experience.item2.time")}
+      desc={t("experience.item2.desc")}
+      link="https://www.linkedin.com/company/multiscan-technologies-s-l/"
+      isIntership
+    />
+    <ExperienceItem
+      img="/img/experience/logo_activalink.png"
+      title="Activalink"
+      time={t("experience.item1.time")}
+      desc={t("experience.item1.desc")}
+      link="https://www.linkedin.com/company/activalink/"
+      isIntership
+    />
+  </div>
+</section>

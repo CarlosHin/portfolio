@@ -1,89 +1,85 @@
 {
-    "hero": {
-        "title": "Carlos Hinojosa Pinto",
-        "downloadCV": "Descargar CV",
-        "cv": "/CV-CarlosHinojosa.pdf"
+  "hero": {
+    "title": "Carlos Hinojosa Pinto",
+    "downloadCV": "Descargar CV",
+    "cv": "/CV-CarlosHinojosa.pdf"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "desc": "Soy graduado del Grado de ingenieria informática en la universidad UPV . Me considero una persona a la que le gusta aprender cosas nuevas cada día y a la cual le gustan los desafios para superarse y desarrollarse. Si quieres ver mis perfil más técnico puedes descargar mi currículum aquí abajo. En mi tiempo libre me gusta hacer ejercicio sobre todo en el gimnasio y en la montaña. También me gusta leer novela histórica y de misterio.",
+    "bookTitle": "Un libro",
+    "bookDesc": "La verdad sobre el caso Harry Quebert",
+    "filmTitle": "Una Pelicula",
+    "filmDesc": "300",
+    "foodTitle": "Una Comida",
+    "foodDesc": "Hamburguesa"
+  },
+  "learning": {
+    "title": "Actualmente aprendiendo...",
+    "desc": "Soy una persona que le gusta aprender cosas cada día, actualmente estoy centrado en las siguientes materias:",
+    "item1": "Solidity",
+    "item2": "Alemán"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "intership": "Prácticas",
+    "item1": {
+      "time": "Marzo 2019- Septiembre 2019",
+      "desc": "Desarrollo fullstack utilizando <b>PHP</b> para el backend, base de datos <b>MySQL</b> y JavaScript junto con <b>React</b> y <b>jQuery</b> para la parte frontend."
     },
-    "about": {
-        "title": "Sobre mi",
-        "desc": "Soy graduado del Grado de ingenieria informática en la universidad UPV . Me considero una persona a la que le gusta aprender cosas nuevas cada día y a la cual le gustan los desafios para superarse y desarrollarse. Si quieres ver mis perfil más técnico puedes descargar mi currículum aquí abajo. En mi tiempo libre me gusta hacer ejercicio sobre todo en el gimnasio y en la montaña. También me gusta leer novela histórica y de misterio.",
-        "bookTitle": "Un libro",
-        "bookDesc": "La verdad sobre el caso Harry Quebert",
-        "filmTitle": "Una Pelicula",
-        "filmDesc": "300",
-        "foodTitle": "Una Comida",
-        "foodDesc": "Hamburguesa"
+    "item2": {
+      "time": "Enero 2020 - Mayo 2020",
+      "desc": "Desarrollo de software en los lenguajes de programación <b>C++</b> y <b>Python</b> para clasificación de fruta y verdura en tiempo real."
     },
-    "learning": {
-        "title": "Actualmente aprendiendo...",
-        "desc": "Soy una persona que le gusta aprender cosas cada día, actualmente estoy centrado en las siguientes materias:",
-        "item1": "Solidity",
-        "item2": "Alemán"
+    "item3": {
+      "time": "Noviembre 2020 - Septiembre 2021",
+      "desc": "Desarrollo Frontend con <b>Angular</b> y testing utilizando <b>Jasmine</b> y <b>Karma</b>. En mi estancia en NTT Data estuve en dos proyectos, en el primero desarrollaba una web para una banco online, y en el segundo una web interna para una teleoperadora móvil."
     },
-    "experience": {
-        "title": "Experiencia",
-        "intership": "Prácticas",
-        "item1": {
-            "time": "Marzo 2019- Septiembre 2019",
-            "desc": "Desarrollo fullstack utilizando <b>PHP</b> para el backend, base de datos <b>MySQL</b> y JavaScript junto con <b>React</b> y <b>jQuery</b> para la parte frontend."
-        },
-        "item2": {
-            "time": "Enero 2020 - Mayo 2020",
-            "desc": "Desarrollo de software en los lenguajes de programación <b>C++</b> y <b>Python</b> para clasificación de fruta y verdura en tiempo real."
-        },
-        "item3": {
-            "time": "Noviembre 2020 - Septiembre 2021",
-            "desc": "Desarrollo Frontend con <b>Angular</b> y testing utilizando <b>Jasmine</b> y <b>Karma</b>. En mi estancia en NTT Data estuve en dos proyectos, en el primero desarrollaba una web para una banco online, y en el segundo una web interna para una teleoperadora móvil."
-        },
-        "item4": {
-            "time": "Septiembre 2021 - Mayo 2023",
-            "desc": "Desarrollo Frontend utilizando <b>React</b> junto con <b>TypeScript</b> y la libreria de estilos <b>Chakra UI</b> y realizando pruebas unitarias con <b>Jest</b>. Creando un <b><a href='https://nft.dcuniverse.com/splash'> Marketplace de NFTs para DC COMIC</a></b> para la blockchain de Palm. Trabajando en equipos con diferentes zonas horarias y con reuniones en inglés."
-        },
-        "item5": {
-            "time": "Mayo 2023 - Actualidad",
-            "desc": "Desarrollo Fullstack utilizando <b>React</b> junto con <b>PHP</b>"
-        }
+    "item4": {
+      "time": "Septiembre 2021 - Mayo 2023",
+      "desc": "Desarrollo Frontend utilizando <b>React</b> junto con <b>TypeScript</b> y la libreria de estilos <b>Chakra UI</b> y realizando pruebas unitarias con <b>Jest</b>. Creando un <b><a href='https://nft.dcuniverse.com/splash'> Marketplace de NFTs para DC COMIC</a></b> para la blockchain de Palm. Trabajando en equipos con diferentes zonas horarias y con reuniones en inglés."
     },
-    "skills": {
-        "fav": "Favourite Stack",
-        "title": "Conocimientos",
-        "viewList": "Ver lista"
-    },
-    "proyects": {
-        "title": "Proyectos personales",
-        "visit": "Visitar",
-        "item1": {
-            "title": "Sell Cars",
-            "desc": "Web para poner coches en venta."
-        },
-        "item2": {
-            "title": "TFG",
-            "desc": "Trabajo de fin de grado para el Grado de Ingeniería Informática. La web permite realizar pedidos desde la mesa de un restaurante utilizando tu móvil. Para el desarrollo utilicé PHP para el Backend y React para el Frontend"
-        },
-        "item3": {
-            "title": "Alacontra Web",
-            "desc": "Web para promocionar muñecos de ganchillo."
-        },
-        "item4": {
-            "title": "Web Miguel Pinto",
-            "desc": "Web informativa del pintor Miguel Pinto usando NextJS y desplegada en Vercel"
-        },
-        "item5": {
-            "title": "Web Libros",
-            "desc": "Web para llevar un seguimiento de tus libros leidos."
-        },
-        "item6": {
-            "title": "Photo searcher",
-            "desc": "Web para realizar búsqueda de imágenes utilizando la API de Unplash. Utilizando React y Redux."
-        }
-    },
-    "contact": {
-        "title": "Contacto",
-        "desc": "Puedes contactar conmigo por email o completando el siguiente formulario.",
-        "alert": "Muchas gracias por tu mensaje!",
-        "name": "Nombre",
-        "email": "Email",
-        "message": "Mensaje",
-        "send": "Enviar"
+    "item5": {
+      "time": "Mayo 2023 - Actualidad",
+      "desc": "Desarrollo Fullstack utilizando <b>React</b> junto con <b>PHP</b>"
     }
+  },
+  "skills": {
+    "fav": "Favourite Stack",
+    "title": "Conocimientos",
+    "viewList": "Ver lista"
+  },
+  "proyects": {
+    "title": "Proyectos personales",
+    "visit": "Visitar",
+    "item1": {
+      "title": "Sell Cars",
+      "desc": "Web para poner coches en venta."
+    },
+    "item2": {
+      "title": "TFG",
+      "desc": "Trabajo de fin de grado para el Grado de Ingeniería Informática. La web permite realizar pedidos desde la mesa de un restaurante utilizando tu móvil. Para el desarrollo utilicé PHP para el Backend y React para el Frontend"
+    },
+    "item3": {
+      "title": "Alacontra Web",
+      "desc": "Web para promocionar muñecos de ganchillo."
+    },
+    "item4": {
+      "title": "Web Miguel Pinto",
+      "desc": "Web informativa del pintor Miguel Pinto usando NextJS y desplegada en Vercel"
+    },
+    "item5": {
+      "title": "Web Libros",
+      "desc": "Web para llevar un seguimiento de tus libros leidos."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "desc": "Puedes contactar conmigo por email o completando el siguiente formulario.",
+    "alert": "Muchas gracias por tu mensaje!",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar"
+  }
 }

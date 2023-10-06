@@ -1,89 +1,85 @@
 {
-    "hero": {
-        "title": "Carlos Hinojosa Pinto",
-        "downloadCV": "Download Resume",
-        "cv": "/CV-CarlosHinojosa_en.pdf"
+  "hero": {
+    "title": "Carlos Hinojosa Pinto",
+    "downloadCV": "Download Resume",
+    "cv": "/CV-CarlosHinojosa_en.pdf"
+  },
+  "about": {
+    "title": "About me",
+    "desc": "I am a Computer Engineer graduated from the Polytechnic University of Valencia in Spain, with more than 3 years of experience in the field. I love learning new things and acquiring new skills every day. In my free time, I enjoy reading, going to the gym, and trail running.",
+    "bookTitle": "One Book",
+    "bookDesc": "The Truth About the Harry Quebert Affair",
+    "filmTitle": "One film",
+    "filmDesc": "300",
+    "foodTitle": "One meal",
+    "foodDesc": "Burguer"
+  },
+  "learning": {
+    "title": "Now Learning...",
+    "desc": "Currently I am focused on the following subjects:",
+    "item1": "Solidity",
+    "item2": "German"
+  },
+  "experience": {
+    "title": "Experience",
+    "intership": "Internship",
+    "item1": {
+      "time": "March 2019 - September 2019",
+      "desc": "Fullstack developer using <b>PHP</b> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend."
     },
-    "about": {
-        "title": "About me",
-        "desc": "I am a Computer Engineer graduated from the Polytechnic University of Valencia in Spain, with more than 3 years of experience in the field. I love learning new things and acquiring new skills every day. In my free time, I enjoy reading, going to the gym, and trail running.",
-        "bookTitle": "One Book",
-        "bookDesc": "The Truth About the Harry Quebert Affair",
-        "filmTitle": "One film",
-        "filmDesc": "300",
-        "foodTitle": "One meal",
-        "foodDesc": "Burguer"
+    "item2": {
+      "time": "January 2020 - May 2020",
+      "desc": "Software developer, I used <b>C++</b> and <b>Python</b> for programming scanners that detects fruit and vegetables defects."
     },
-    "learning": {
-        "title": "Now Learning...",
-        "desc": "Currently I am focused on the following subjects:",
-        "item1": "Solidity",
-        "item2": "German"
+    "item3": {
+      "time": "November 2020 - September 2021",
+      "desc": "Working for different projects on the front-end.<ul><li>- Development in Angular and React.</li><li>- Databases management.</li><li>- Unit and functional tests.</li><li>- Agile methodology.</li></ul>"
     },
-    "experience": {
-        "title": "Experience",
-        "intership": "Internship",
-        "item1": {
-            "time": "March 2019 - September 2019",
-            "desc": "Fullstack developer using <b>PHP</b> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend."
-        },
-        "item2": {
-            "time": "January 2020 - May 2020",
-            "desc": "Software developer, I used <b>C++</b> and <b>Python</b> for programming scanners that detects fruit and vegetables defects."
-        },
-        "item3": {
-            "time": "November 2020 - September 2021",
-            "desc": "Working for different projects on the front-end.<ul><li>- Development in Angular and React.</li><li>- Databases management.</li><li>- Unit and functional tests.</li><li>- Agile methodology.</li></ul>"
-        },
-        "item4": {
-            "time": "September 2021 - May 2023",
-            "desc": "Development of a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMICS</a></b> on the Palm blockchain.<ul><li>- Implementing different functionalities with <b>React</b>and <b>TypeScript</b>.</li><li>- Making deployments to the different environments.</li><li>- Unit tests for each component of the application.</li><li>- SCRUM planning using Jira.</li></ul>"
-        },
-        "item5": {
-            "time": "May 2023 - Now",
-            "desc": "Development of a web platform for SIA. <ul><li>- Creating components in <b>React</b>.</li><li>- Develop backend platform with the CMS Drupal (Headless) with <b>PHP</b>.</li><li>- Connect frontend and backend.</li><li>- Managing databases.</li><li>- Managing containers with Docker.</li></ul>"
-        }
+    "item4": {
+      "time": "September 2021 - May 2023",
+      "desc": "Development of a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMICS</a></b> on the Palm blockchain.<ul><li>- Implementing different functionalities with <b>React</b>and <b>TypeScript</b>.</li><li>- Making deployments to the different environments.</li><li>- Unit tests for each component of the application.</li><li>- SCRUM planning using Jira.</li></ul>"
     },
-    "skills": {
-        "fav": "Favourite Stack",
-        "title": "Skills",
-        "viewList": "View list"
-    },
-    "proyects": {
-        "title": "Personal Projects",
-        "visit": "View",
-        "item1": {
-            "title": "Sell Cars",
-            "desc": "Web to publish cars."
-        },
-        "item2": {
-            "title": "TFG",
-            "desc": "Final project for the Computer Science Degree. This web allow you to order food from a restaurant."
-        },
-        "item3": {
-            "title": "Alacontra Web",
-            "desc": "Web for promote crochet toys."
-        },
-        "item4": {
-            "title": "Web Miguel Pinto",
-            "desc": "Web for the painter Miguel Pinto. Using NextJS and deployed in Vercel."
-        },
-        "item5": {
-            "title": "Web Libros",
-            "desc": "Web to organice your books."
-        },
-        "item6": {
-            "title": "Photo searcher",
-            "desc": "Web that allow you to search photos using the Unplash API, React and Redux."
-        }
-    },
-    "contact": {
-        "title": "Contact",
-        "desc": "You can send me a message with this form or send me an email.",
-        "alert": "Thanks for your message!",
-        "name": "Name",
-        "email": "Email",
-        "message": "Message",
-        "send": "Send"
+    "item5": {
+      "time": "May 2023 - Now",
+      "desc": "Development of a web platform for SIA. <ul><li>- Creating components in <b>React</b>.</li><li>- Develop backend platform with the CMS Drupal (Headless) with <b>PHP</b>.</li><li>- Connect frontend and backend.</li><li>- Managing databases.</li><li>- Managing containers with Docker.</li></ul>"
     }
+  },
+  "skills": {
+    "fav": "Favourite Stack",
+    "title": "Skills",
+    "viewList": "View list"
+  },
+  "proyects": {
+    "title": "Personal Projects",
+    "visit": "View",
+    "item1": {
+      "title": "Sell Cars",
+      "desc": "Web to publish cars."
+    },
+    "item2": {
+      "title": "TFG",
+      "desc": "Final project for the Computer Science Degree. This web allow you to order food from a restaurant."
+    },
+    "item3": {
+      "title": "Alacontra Web",
+      "desc": "Web for promote crochet toys."
+    },
+    "item4": {
+      "title": "Web Miguel Pinto",
+      "desc": "Web for the painter Miguel Pinto. Using NextJS and deployed in Vercel."
+    },
+    "item5": {
+      "title": "Web Libros",
+      "desc": "Web to organice your books."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "desc": "You can send me a message with this form or send me an email.",
+    "alert": "Thanks for your message!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
 }

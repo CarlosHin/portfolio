@@ -1,0 +1,82 @@
+---
+import { t } from "i18next";
+
+export interface Props {
+  img: string;
+  title: string;
+  desc: string;
+  d: string;
+  link?: string;
+  stack: string[];
+}
+
+const { img, title, desc, d, stack, link } = Astro.props as Props;
+---
+
+<div
+  class="proyectItem-container mb-6 lg:mb-0 hover:shadow-lg h-full revealing-scroll-item"
+>
+  <div class="bg-white block rounded-lg shadow-lg h-full">
+    <div class="relative overflow-hidden bg-no-repeat bg-cover">
+      <img src={img} class="w-full rounded-t-lg" />
+      <svg
+        class="absolute"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        style="left: 0; bottom: 0"
+      >
+        <path fill="#fff" d={d}> </path>
+      </svg>
+    </div>
+    <div class="p-6">
+      <h5 class="text-lg font-bold mb-4">{title}</h5>
+      <p class="text-gray-500 mb-4 text-xs text-justify">{desc}</p>
+      <h5 class="text-sm font-bold mb-4 text-left">Tech Stack:</h5>
+      <div class="grid grid-cols-8 lg:grid-cols-9 mb-4">
+        {
+          stack.map((item) => (
+            <img src={`/img/techs/${item}`} alt="" class="h-5 mr-2" />
+          ))
+        }
+      </div>
+      <a href={link} target="_blank">
+        <button
+          type="button"
+          class="inline-block px-6 py-2 border-2 border-blue-400 text-blue-400 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+          >{t("proyects.visit")}
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .proyectItem-container {
+    transition: all 0.3s ease-in-out;
+  }
+  .proyectItem-container:hover {
+    transform: scale(1.03);
+  }
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .revealing-scroll-item {
+    /* Create View Timeline */
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation: linear reveal both;
+    animation-timeline: --revealing-image;
+
+    /* Tweak range when effect should run*/
+    animation-range: entry 25% cover 40%;
+  }
+</style>
