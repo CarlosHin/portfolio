@@ -20,30 +20,6 @@
     "item1": "Solidity",
     "item2": "German"
   },
-  "experience": {
-    "title": "Experience",
-    "intership": "Internship",
-    "item1": {
-      "time": "March 2019 - September 2019",
-      "desc": "Fullstack developer using <b>PHP</b> for backend <b>MySQL</b> database and <b>React</b> and <b>jQuery</b> for the frontend."
-    },
-    "item2": {
-      "time": "January 2020 - May 2020",
-      "desc": "Software developer, I used <b>C++</b> and <b>Python</b> for programming scanners that detects fruit and vegetables defects."
-    },
-    "item3": {
-      "time": "November 2020 - September 2021",
-      "desc": "Working for different projects on the front-end.<ul><li>- Development in Angular and React.</li><li>- Databases management.</li><li>- Unit and functional tests.</li><li>- Agile methodology.</li></ul>"
-    },
-    "item4": {
-      "time": "September 2021 - May 2023",
-      "desc": "Development of a <b><a href='https://nft.dcuniverse.com/splash'>NFT  Marketplace for DC COMICS</a></b> on the Palm blockchain.<ul><li>- Implementing different functionalities with <b>React</b>and <b>TypeScript</b>.</li><li>- Making deployments to the different environments.</li><li>- Unit tests for each component of the application.</li><li>- SCRUM planning using Jira.</li></ul>"
-    },
-    "item5": {
-      "time": "May 2023 - Now",
-      "desc": "Development of a web platform for SIA. <ul><li>- Creating components in <b>React</b>.</li><li>- Develop backend platform with the CMS Drupal (Headless) with <b>PHP</b>.</li><li>- Connect frontend and backend.</li><li>- Managing databases.</li><li>- Managing containers with Docker.</li></ul>"
-    }
-  },
   "skills": {
     "fav": "Favourite Stack",
     "title": "Skills",
