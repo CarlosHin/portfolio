@@ -49,6 +49,10 @@
       "desc": "Web para llevar un seguimiento de tus libros leidos."
     }
   },
+  "experience": {
+    "title": "Experiencia",
+    "intership": "Prácticas"
+  },
   "contact": {
     "title": "Contacto",
     "desc": "Puedes contactar conmigo por email o completando el siguiente formulario.",

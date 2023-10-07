@@ -49,6 +49,10 @@
       "desc": "Web to organice your books."
     }
   },
+  "experience": {
+    "title": "Experience",
+    "intership": "Internship"
+  },
   "contact": {
     "title": "Contact",
     "desc": "You can send me a message with this form or send me an email.",
