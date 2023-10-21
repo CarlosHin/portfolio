@@ -43,10 +43,6 @@
     "item4": {
       "title": "Web Miguel Pinto",
       "desc": "Web informativa del pintor Miguel Pinto usando NextJS y desplegada en Vercel"
-    },
-    "item5": {
-      "title": "Web Libros",
-      "desc": "Web para llevar un seguimiento de tus libros leidos."
     }
   },
   "experience": {

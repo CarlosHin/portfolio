@@ -43,10 +43,6 @@
     "item4": {
       "title": "Web Miguel Pinto",
       "desc": "Web for the painter Miguel Pinto. Using NextJS and deployed in Vercel."
-    },
-    "item5": {
-      "title": "Web Libros",
-      "desc": "Web to organice your books."
     }
   },
   "experience": {
