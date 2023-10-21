@@ -30,7 +30,7 @@
     "visit": "View",
     "item1": {
       "title": "Sell Cars",
-      "desc": "Web to publish cars."
+      "desc": "Marketplace to buy/sell cars , using Typescript, React, NextJS and Supabase."
     },
     "item2": {
       "title": "TFG",
