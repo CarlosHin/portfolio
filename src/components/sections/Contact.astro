@@ -82,11 +82,16 @@ import { t } from "i18next";
     const succesAlert = document.getElementById("success-alert");
     succesAlert.style.display = "none";
     const formData = new FormData(e.target);
-    fetch("https://getform.io/f/11f07c89-572f-46e0-8d1f-912393122dfc", {
+    let bodyContent = {};
+    for (var [key, value] of formData.entries()) { 
+        bodyContent[key] = value;
+    }
+    fetch("https://send_email.carlosh.ch/api/public/message/carlosh", {
       method: "POST",
-      body: formData,
+      body: JSON.stringify(bodyContent),
       headers: {
         Accept: "application/json",
+        "Content-Type": "application/json"
       },
     })
       .then((response) => {

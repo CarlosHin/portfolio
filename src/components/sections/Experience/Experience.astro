@@ -21,7 +21,7 @@ const json = await response.json();
       json?.data?.reverse().map((el) => {
         return (
           <ExperienceItem
-            img={`${import.meta.env.API_URL}/assets/${el.logo.id}`}
+            img={`${import.meta.env.STORAGE_URL}/${el.logo.filename_disk}`}
             title={el.Company}
             time={el.translations[0].date}
             desc={el.translations[0].description}
